@@ -1,5 +1,8 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 namespace UnityStandardAssets.Utility
 {
@@ -7,7 +10,7 @@ namespace UnityStandardAssets.Utility
     {
         // An incredibly simple menu which, when given references
         // to gameobjects in the scene
-        public GUIText camSwitchButton;
+        public TextMeshProUGUI camSwitchButton;
         public GameObject[] objects;
 
 
